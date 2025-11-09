@@ -90,7 +90,7 @@ ods html text="
 <html>
 <body style='font-size: 12px;'>
    <h1 style='color: #4CAF50;'>Hi Team!</h1>
-   <p style='font-size: 12px;'>Attached here is the list for the Prize Deal List.</p>
+   <p style='font-size: 12px;'>Attached here is the Gaming Performance for today.</p>
 ";
 proc report data=work.R3 nowd;
 	column Category NationalityGroup Yesterday P1W P2W P3W ((''('YESTERDAY VS.' 'VS P1W'n 'VS P2W'n 'VS P3W'n))) ;
@@ -121,6 +121,7 @@ ods html text="
 </html>
 ";
 ods html close;
+
 
 
 
